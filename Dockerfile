@@ -5,4 +5,4 @@ RUN yum install -y https://centos7.iuscommunity.org/ius-release.rpm && yum updat
 COPY files/* /
 RUN mkdir /root/.aws/
 COPY files/config /root/.aws/
-RUN pip3 install --user -r requirements
+RUN pip3 install --user -r requirements.txt
